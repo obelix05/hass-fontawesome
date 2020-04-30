@@ -1,0 +1,21 @@
+{
+  "config": {
+    "title": "FontAwesome",
+    "abort": {
+      "single_instance_allowed": "Nur eine einzige Konfiguration von MQTT ist zul\u00e4ssig."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Icon-Set",
+        "description": "Welche Icon-Sets sollen aktiviert werden?",
+        "data": {
+          "regular": "Aktiviere reguläre icons (far:)",
+          "solid": "Aktiviere ausgefüllte icons (fas:)",
+          "brands": "Aktiviere Logo icons (fab:)"
+        }
+      }
+    }
+  }
+}
